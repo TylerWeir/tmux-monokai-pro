@@ -27,16 +27,16 @@ main()
   show_kubernetes_context_label=$(get_tmux_option "@monokai-kubernetes-context-label" "")
   IFS=' ' read -r -a plugins <<< $(get_tmux_option "@monokai-plugins" "network-ping cpu-usage ram-usage")
 
-  # Monokai Pro Color Pallette  
-  white='#fcfcfa'
-  black='#2d2a2e'
-  gray='#1e2024'
-  red='#ff6188'
-  green='#a9dc76'
-  yellow='#ffd866'
-  blue='#78dce8'
-  magenta='#fc9867'
-  cyan='#ab9df2'
+  # Rose-pine Color Pallette  
+  white='#e0def4'   # Text
+  black='#2d2a2e'   
+  gray='#191724'    # Base
+  red='#eb6f92'     # love
+  green='#31748f'   # Pine 
+  yellow='#f6c177'  # Gold
+  blue='9ccfd8'     # Foam 
+  magenta='#c4a7e7' # Iris
+  cyan='#9ccfd8'    # Foam
 
   # Handle left icon configuration
   case $show_left_icon in
